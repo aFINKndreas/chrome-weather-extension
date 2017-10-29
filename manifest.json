@@ -1,0 +1,19 @@
+{
+  "name": "Personal New Tab",
+  "description": "Personal New Tab Page - Location, afink.at",
+  "version": "2.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions":[
+  	"geolocation"
+  ],
+  "browser_action" : {
+   "default_icon" : "images/favicon.png"
+  },
+  "icons": { 
+    "256": "images/favicon.png"
+  },
+  "manifest_version": 2
+}
